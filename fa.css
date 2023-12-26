@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 241, 243, 1);
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main > form{
+    background-color: white;
+    width: 27%;
+    border-radius: 10px;
+    height: 580px;
+    margin-top: 50px;
+    padding: 30px 30px;
+}
+
+main > form > h4{
+    color: #fab005;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+}
+
+main > form > img{
+    padding-left: 178px;
+    height: 65px;
+    width: 65px;
+}
+
+main > form > h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+main > form > h5{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#email{
+    border-radius: 5px;
+    width: 380px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 28px;
+}
+
+#pass{
+    border-radius: 5px;
+    width: 380px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 28px;
+}
+
+#forgot{
+    margin-left: 125px;
+}
+
+main > form > #button-cont > button{
+    border-radius: 5px;
+    width: 402px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #fab005;
+    box-shadow: 1px 5px 1px black;
+    font-weight: bolder;
+}
+
+main > form > #button-cont > button:hover{
+    background-color: #d79b0e;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 47%;
+    left: 2%;
+}
+
+#email-cont{
+    position: relative;
+}
+
+.fa-lock{
+    position: absolute;
+    top: 47%;
+    left: 2%;
+}
+
+#pass-cont{
+    position: relative;
+}
+
+.fa-right-to-bracket{
+    position: absolute;
+    top: 48%;
+    left: 57%;
+}
+
+#button-cont{
+    position: relative;
+}
+
+#forgot:hover{
+    color: blueviolet;
+}
+
+
